@@ -113,7 +113,7 @@ class PyChain:
             block_hash = block.hash_block()
 
         # if all blocks are checked and none return False, chain is valid and return True
-        print("Blockchain is Valid")
+        st.write("Blockchain is Valid")
         return True
 
 ################################################################################
